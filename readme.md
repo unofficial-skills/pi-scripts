@@ -1,1 +1,1 @@
-curl -sSL https://install.pi-hole.net | bash
+curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/hassio.sh | bash
