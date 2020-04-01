@@ -1,1 +1,1 @@
-curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/hassio.sh | bash
+curl -sSL https://download.andrewstech.me/hassio | bash
