@@ -1,3 +1,4 @@
+#!/bin/sh
 cd
 sudo apt-get update
 apt-get install software-properties-common
