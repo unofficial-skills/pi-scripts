@@ -1,0 +1,11 @@
+[Unit]
+Description=Home Assistant
+After=network-online.target
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.homeassistant
+ExecStart=/root/homeassistant/bin/hass -c "/root/.homeassistant"
+
+[Install]
+WantedBy=multi-user.target
