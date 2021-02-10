@@ -14,3 +14,4 @@ wget https://github.com/hacs/integration/releases/latest/download/hacs.zip
 unzip /root/.homeassistant/custom_components/hacs.zip -d /root/.homeassistant/custom_components/hacs >/dev/null 2>&1
 sudo systemctl --system daemon-reload
 sudo systemctl enable home-assistant
+sudo reboot
