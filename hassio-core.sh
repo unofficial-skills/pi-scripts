@@ -23,7 +23,7 @@ mkdir /root/.homeassistant/custom_components/
 mkdir /root/.homeassistant/custom_components/hacs
 cd /root/.homeassistant/custom_components/
 wget https://github.com/hacs/integration/releases/latest/download/hacs.zip
-unzip /etc/systemd/system/hacs.zip -d /root/.homeassistant/custom_components/hacs >/dev/null 2>&1
+unzip /root/.homeassistant/custom_components/hacs.zip -d /root/.homeassistant/custom_components/hacs >/dev/null 2>&1
 sudo systemctl --system daemon-reload
 sudo systemctl enable home-assistant
 reboot
