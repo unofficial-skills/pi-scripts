@@ -9,3 +9,4 @@ cd /etc/systemd/system/
 wget https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/home-assistant.service
 sudo systemctl --system daemon-reload
 sudo systemctl enable home-assistant
+sudo systemctl start home-assistant
