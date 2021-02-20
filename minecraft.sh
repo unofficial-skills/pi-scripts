@@ -6,5 +6,5 @@ wget https://packagecloud.io/pufferpanel/pufferpanel/packages/raspbian/buster/pu
 sudo dpkg -i download.deb
 systemctl enable pufferpanel
 systemctl start pufferpanel
-pufferpanel user add admin
+pufferpanel user add --admin
 sudo mysql_secure_installation
