@@ -18,3 +18,10 @@ curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/
 Want to remove homeassistant then run the command bellow
 
 curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/uninstall.sh | bash
+
+
+-----------------------------------------------------------
+
+# Minecraft
+
+curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/minecraft.sh | bash
