@@ -7,4 +7,4 @@ sudo dpkg -i download.deb
 systemctl enable pufferpanel
 systemctl start pufferpanel
 pufferpanel user add --admin
-sudo mysql_secure_installation
+
