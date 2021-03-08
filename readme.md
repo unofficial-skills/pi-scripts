@@ -25,3 +25,8 @@ curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/
 # Minecraft
 
 curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/minecraft.sh | bash
+
+
+-------------------------------------------------------------
+
+curl -sSL https://raw.githubusercontent.com/unofficial-skills/pi-scripts/master/supervised.sh | bash
